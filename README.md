@@ -1,2 +1,2 @@
-# bishe
-毕设相关项目
+Git is a version control system.
+Git is free software.

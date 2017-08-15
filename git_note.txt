@@ -1,0 +1,18 @@
+1.	git add fileName
+2.	git commit -m "注释"
+3.	git status #查看当前git工作状态 ，是否有未提交的
+4.	git diff #查看文件修改的内容
+5.	git reset --hard HEAD^  #回退一个版本
+6.	git reset --hard HEAD~100	#回退一百个版本
+7.	git log #查看日志
+8.	git log --pretty=oneline #一行展示日志
+9.	git reflog  #查看以前的操作 
+
+10.   工作区,  暂存区， 本地 master 分支
+
+   	所有修改都在工作区完成， 
+	执行 git add 是 工作区 -> 暂存区
+	执行 git commit 暂存区 -> master
+
+11	git checkout -- readme.txt #把readme.txt文件在工作区的修改全部撤销， 工作区内容回退
+   

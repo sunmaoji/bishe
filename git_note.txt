@@ -15,4 +15,5 @@
 	执行 git commit 暂存区 -> master
 
 11	git checkout -- readme.txt #把readme.txt文件在工作区的修改全部撤销， 工作区内容回退
+12	git reset HEAD fileName  #把readme.txt文件在暂存区的修改全部撤销， 工作区内容回退
    
